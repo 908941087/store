@@ -1,0 +1,7 @@
+9.18日志
+将 <!-- Static transform from map to base_radar_link for visualization of stand-alone mmWave sensor using Rviz -->
+  <node pkg="tf" type="static_transform_publisher" name="static_tf_map_to_base_radar_link" args="0 0 0 0 0 0 map base_radar_link 100"/>
+写入ti_mmwaver_sensor.launch.即可出现点云
+
+将pointtocloud中target_frame: base_radar_link # Leave disabled to output scan in pointcloud frame即可使得scantopoints 的topic传到rviz发挥作用
+时间问题与<param name="/use_sim_time" value="true" />有关
