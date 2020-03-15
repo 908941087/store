@@ -6,3 +6,5 @@
 其中mmwave launch运行后出现错误：
 [ERROR] [1568027738.310318438]: Client [/cartographer_node] wants topic /mmWaveDataHdl/RScan to have datatype/md5sum [sensor_msgs/LaserScan/90c7ef2dc6895d81024acba2ac42f369], but our version has [sensor_msgs/PointCloud2/1158d486dd51d683ce2f1be655c3c181]. Dropping connection.
 
+
+git test
